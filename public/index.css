@@ -1,0 +1,12 @@
+body {
+    background-image: url("/assets/poker_background.png");
+    margin: 0;
+    padding: 0;
+
+    user-select: none;
+}
+
+.asset-element {
+    position: absolute;
+    user-select: none;
+}

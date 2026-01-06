@@ -1,0 +1,217 @@
+[
+    {
+        "id": "chessboard",
+        "name": "chessboard",
+        "type": "static",
+        "traits": ["cannot_move"],
+        "styles": [{
+                "id": "wood",
+                "name": "wood", 
+                "image": "wood_chessboard.png"
+            }, 
+            {
+                "id": "marble",
+                "name": "marble", 
+                "image": "marble_chessboard.png"
+            }
+        ],
+        "defaultWidth": 1020,
+        "defaultHeight": 1020
+    },
+    {
+        "id": "card",
+        "name": "card",
+        "type": "multiple_flippable",
+        "styles": [{
+                "id": "default",
+                "name": "default",
+                "sprites": [
+                    { "id": "2_of_clubs", "image": "2_of_clubs.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "2_of_diamonds", "image": "2_of_diamonds.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "2_of_hearts", "image": "2_of_hearts.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "2_of_spades", "image": "2_of_spades.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "3_of_clubs", "image": "3_of_clubs.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "3_of_diamonds", "image": "3_of_diamonds.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "3_of_hearts", "image": "3_of_hearts.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "3_of_spades", "image": "3_of_spades.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "4_of_clubs", "image": "4_of_clubs.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "4_of_diamonds", "image": "4_of_diamonds.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "4_of_hearts", "image": "4_of_hearts.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "4_of_spades", "image": "4_of_spades.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "5_of_clubs", "image": "5_of_clubs.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "5_of_diamonds", "image": "5_of_diamonds.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "5_of_hearts", "image": "5_of_hearts.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "5_of_spades", "image": "5_of_spades.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "6_of_clubs", "image": "6_of_clubs.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "6_of_diamonds", "image": "6_of_diamonds.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "6_of_hearts", "image": "6_of_hearts.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "6_of_spades", "image": "6_of_spades.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "7_of_clubs", "image": "7_of_clubs.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "7_of_diamonds", "image": "7_of_diamonds.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "7_of_hearts", "image": "7_of_hearts.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "7_of_spades", "image": "7_of_spades.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "8_of_clubs", "image": "8_of_clubs.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "8_of_diamonds", "image": "8_of_diamonds.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "8_of_hearts", "image": "8_of_hearts.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "8_of_spades", "image": "8_of_spades.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "9_of_clubs", "image": "9_of_clubs.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "9_of_diamonds", "image": "9_of_diamonds.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "9_of_hearts", "image": "9_of_hearts.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "9_of_spades", "image": "9_of_spades.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "10_of_clubs", "image": "10_of_clubs.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "10_of_diamonds", "image": "10_of_diamonds.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "10_of_hearts", "image": "10_of_hearts.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "10_of_spades", "image": "10_of_spades.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "jack_of_clubs", "image": "jack_of_clubs.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "jack_of_diamonds", "image": "jack_of_diamonds.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "jack_of_hearts", "image": "jack_of_hearts.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "jack_of_spades", "image": "jack_of_spades.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "queen_of_clubs", "image": "queen_of_clubs.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "queen_of_diamonds", "image": "queen_of_diamonds.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "queen_of_hearts", "image": "queen_of_hearts.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "queen_of_spades", "image": "queen_of_spades.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "king_of_clubs", "image": "king_of_clubs.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "king_of_diamonds", "image": "king_of_diamonds.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "king_of_hearts", "image": "king_of_hearts.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "king_of_spades", "image": "king_of_spades.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "ace_of_clubs", "image": "ace_of_clubs.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "ace_of_diamonds", "image": "ace_of_diamonds.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "ace_of_hearts", "image": "ace_of_hearts.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "ace_of_spades", "image": "ace_of_spades.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "black_joker", "image": "black_joker.png", "image_flip": "playing_card_flipped.png" },
+                    { "id": "red_joker", "image": "red_joker.png", "image_flip": "playing_card_flipped.png"}
+        ]}],
+        "defaultWidth": 125,
+        "defaultHeight": 181
+    },
+    {
+        "id": "token",
+        "name": "token",
+        "type": "multiple",
+        "styles": [{
+                "id": "default",
+                "name": "default",
+                "sprites": [
+                    { "id": "token_1", "image": "token_1.png"},
+                    { "id": "token_5", "image": "token_5.png"},
+                    { "id": "token_25", "image": "token_25.png"},
+                    { "id": "token_100", "image": "token_100.png"},
+                    { "id": "token_500", "image": "token_500.png"},
+                    { "id": "token_1000", "image": "token_1000.png"}
+        ]}],
+        "defaultWidth": 100,
+        "defaultHeight": 100
+    },
+    {
+        "id": "chesspiece",
+        "name": "chesspiece",
+        "type": "multiple",
+        "styles": [{
+                "id": "white",
+                "name": "white", 
+                "sprites": [
+                    {
+                        "id": "rook",
+                        "image": "white_rook.png"
+                    },
+                    {
+                        "id": "knight",
+                        "image": "white_knight.png"
+                    },
+                    {
+                        "id": "bishop",
+                        "image": "white_bishop.png"
+                    },
+                    {
+                        "id": "queen",
+                        "image": "white_queen.png"
+                    },
+                    {
+                        "id": "king",
+                        "image": "white_king.png"
+                    },
+                    {
+                        "id": "pawn",
+                        "image": "white_pawn.png"
+                    }
+                ]
+            },
+            {
+                "id": "black",
+                "name": "black", 
+                "sprites": [
+                    {
+                        "id": "rook",
+                        "image": "black_rook.png"
+                    },
+                    {
+                        "id": "knight",
+                        "image": "black_knight.png"
+                    },
+                    {
+                        "id": "bishop",
+                        "image": "black_bishop.png"
+                    },
+                    {
+                        "id": "queen",
+                        "image": "black_queen.png"
+                    },
+                    {
+                        "id": "king",
+                        "image": "black_king.png"
+                    },
+                    {
+                        "id": "pawn",
+                        "image": "black_pawn.png"
+                    }
+                ]
+            }
+        ],
+        "defaultWidth": 108,
+        "defaultHeight": 108
+    },
+    {
+        "id": "dice6",
+        "name": "dice6",
+        "type": "multiple_random",
+        "styles": [{
+                "id": "default",
+                "name": "default", 
+                "sprites": [
+                    {
+                        "id": "dice6_1",
+                        "weight": 1.0,
+                        "image": "dice6_1.png"
+                    },
+                    {
+                        "id": "dice6_2",
+                        "weight": 1.0,
+                        "image": "dice6_2.png"
+                    },
+                    {
+                        "id": "dice6_3",
+                        "weight": 1.0,
+                        "image": "dice6_3.png"
+                    },
+                    {
+                        "id": "dice6_4",
+                        "weight": 1.0,
+                        "image": "dice6_4.png"
+                    },
+                    {
+                        "id": "dice6_5",
+                        "weight": 1.0,
+                        "image": "dice6_5.png"
+                    },
+                    {
+                        "id": "dice6_6",
+                        "weight": 1.0,
+                        "image": "dice6_6.png"
+                    }
+                ]
+            }
+        ],
+        "defaultWidth": 64,
+        "defaultHeight": 64
+    }
+]
